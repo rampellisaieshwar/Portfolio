@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Nosifer&family=Poppins:wght@400;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sai Eshwar - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sai Eshwar's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certificate.html">Certificate</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My Name is Sai Eshwar I'm a Passionate
+          <span id="element"></span>
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I Have Done So Far</span>
+        <h1>Eduction</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">
+              SSC <br />
+              Sri Chaitanya High School (2018)
+            </div>
+            <div class="vertical-desc"></div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">
+              Intermediate <br />
+              Narayana Junior College (2018-2020)
+            </div>
+            <div class="vertical-desc"></div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">
+              B.Tech <br />
+              Kamala Institute of Technology & Science (2020-2024)
+            </div>
+            <div class="vertical-desc"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">Sai Eshwar's Portfolio</h1>
+        <h2>
+          FOLLOW ME ON <br />
+          <a href="https://www.linkedin.com/in/sai-eshwar-rampelli-7281a5216/"
+            ><img src="/linkedin.png" width="30px" alt=""
+          /></a>
+          <a
+            href="
+          https://twitter.com/RampelliSai"
+            ><img src="/twitter.png" width="30px" alt=""
+          /></a>
+          <a href="https://www.instagram.com/saieshwar_lohitasa/"
+            ><img class="arrange" src="/insta.png" width="34px" alt=""
+          /></a>
+        </h2>
+      </div>
+
+      <ul class="footer__nav">
+        <div class="footer__addr">
+          <h2>Address</h2>
+          <address>T2 590 Godavarikhani India<br /></address>
+        </div>
+        <section id="contact">
+          <dic class="footer__addr">
+            <h2>Contact</h2>
+            <a class="footer__btn" href="mailto:usai5678@gmail.com">Email Us</a>
+          </dic>
+        </section>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2023 Sai Eshwar's Portfolio. All rights reserved.</p>
+
+        <div class="legal__links">
+          <span>Designed by Sai Eshwar Rampelli</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "django Developer",
+          "Web Designer",
+          "Tester",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
